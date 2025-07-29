@@ -1,4 +1,6 @@
-# 🔵 PulseTrack - Real-time Solana Wallet Tracker
+# PulseTrack - Real-time Solana Wallet Tracker
+
+**Official Website:** [www.pulsetrack.fun](https://www.pulsetrack.fun)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
@@ -7,29 +9,29 @@
 
 PulseTrack is a sophisticated browser extension that provides real-time tracking of Solana blockchain wallets with immersive 3D visualizations powered by Three.js. Monitor transactions, analyze trading patterns, and stay updated with live blockchain data directly in your browser.
 
-## ✨ Features
+## Features
 
-### 🔄 Real-time Monitoring
+### Real-time Monitoring
 - **Live Transaction Tracking**: Monitor Solana wallets in real-time via WebSocket connections
 - **Instant Notifications**: Get immediate alerts for new transactions
 - **Multi-Wallet Support**: Track multiple wallets simultaneously
 
-### 📊 Advanced Analytics
+### Advanced Analytics
 - **Transaction Filtering**: Smart filters for trading-relevant transactions only
 - **Token Enrichment**: Automatic token metadata and pricing via Birdeye API
 - **Portfolio Insights**: Comprehensive wallet analysis and statistics
 
-### 🎨 3D Visualization
+### 3D Visualization
 - **Interactive 3D Interface**: Immersive experience with Three.js animations
 - **Customizable Themes**: Multiple visual themes including neon and dark modes
 - **Responsive Design**: Optimized for all screen sizes
 
-### 🔧 Technical Excellence
+### Technical Excellence
 - **API Key Rotation**: Intelligent load balancing across multiple Helius API keys
 - **Caching System**: Efficient data caching for optimal performance
 - **Error Recovery**: Robust error handling and automatic reconnection
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18.x or later
@@ -40,7 +42,7 @@ PulseTrack is a sophisticated browser extension that provides real-time tracking
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/pulsetrack/pulsetrack-browser-extension.git
+   git clone https://github.com/pulsetrack-ai/pulsetrack-browser-extension.git
    cd pulsetrack-browser-extension
    ```
 
@@ -65,26 +67,26 @@ PulseTrack is a sophisticated browser extension that provides real-time tracking
    - Enable "Developer mode"
    - Click "Load unpacked" and select the `dist` folder
 
-## 📖 Documentation
+## Documentation
 
-### 📚 User Guide
+### User Guide
 - [Getting Started](docs/user-guide/getting-started.md)
 - [Tracking Wallets](docs/user-guide/tracking-wallets.md)
 - [Understanding Transactions](docs/user-guide/transactions.md)
 - [Customization Options](docs/user-guide/customization.md)
 
-### 🛠️ Developer Documentation
+### Developer Documentation
 - [Architecture Overview](docs/architecture/README.md)
 - [API Integration](docs/api/README.md)
 - [Development Setup](docs/development/setup.md)
 - [Contributing Guidelines](CONTRIBUTING.md)
 
-### 🔌 API Documentation
+### API Documentation
 - [Helius API Integration](docs/api/helius-api.md)
 - [Birdeye API Integration](docs/api/birdeye-api.md)
 - [WebSocket Implementation](docs/api/websocket-api.md)
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 pulsetrack-browser-extension/
@@ -102,18 +104,18 @@ pulsetrack-browser-extension/
 └── tests/                      # Test suites
 ```
 
-## 🔑 API Keys Setup
+## API Keys Setup
 
 PulseTrack requires API keys from:
 
 ### Helius (Required)
 - **Purpose**: Solana RPC and WebSocket access
-- **Get API Key**: [Helius Dashboard](https://dashboard.helius.xyz/)
+- **Get API Key**: [Helius Dashboard](https://dashboard.helius.dev)
 - **Features**: Transaction monitoring, account tracking
 
 ### Birdeye (Optional)
 - **Purpose**: Token metadata and pricing data
-- **Get API Key**: [Birdeye API](https://birdeye.so/api)
+- **Get API Key**: [Birdeye API](https://docs.birdeye.so/)
 - **Features**: Token logos, prices, market data
 
 ### Configuration
@@ -127,7 +129,7 @@ PulseTrack requires API keys from:
 }
 ```
 
-## 🔧 Development
+## Development
 
 ### Development Scripts
 ```bash
@@ -162,7 +164,7 @@ yarn test:watch
 yarn test:coverage
 ```
 
-## 🌟 Key Components
+## Key Components
 
 ### Core Services
 - **WalletTracker**: Main tracking orchestrator
@@ -176,21 +178,21 @@ yarn test:coverage
 - **WalletInput**: Wallet address input and validation
 - **RedCube**: 3D visualization component
 
-## 📊 Performance
+## Performance
 
 - **Real-time Updates**: < 100ms latency for transaction notifications
 - **Memory Usage**: Optimized for minimal browser resource consumption
 - **API Efficiency**: Intelligent caching and request batching
 - **Bundle Size**: Optimized for fast loading
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 - **Client-side Processing**: All data processing happens locally
 - **Secure API Communication**: HTTPS/WSS only connections
 - **No Data Storage**: Transactions are cached temporarily only
 - **Open Source**: Full transparency with public source code
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
@@ -208,11 +210,11 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - Conventional commits for git messages
 - JSDoc for documentation
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Solana Foundation** - For the amazing blockchain platform
 - **Helius** - For reliable Solana RPC services
@@ -220,14 +222,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Three.js** - For 3D visualization capabilities
 - **Open Source Community** - For the fantastic tools and libraries
 
-## 📞 Support
+## Support
 
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/pulsetrack/pulsetrack-browser-extension/issues)
-- 💡 **Feature Requests**: [GitHub Discussions](https://github.com/pulsetrack/pulsetrack-browser-extension/discussions)
-- 📖 **Documentation**: [docs/](docs/)
-- 💬 **Community**: [Discord](https://discord.gg/pulsetrack)
+- **Bug Reports**: [GitHub Issues](https://github.com/pulsetrack-ai/pulsetrack-browser-extension/issues)
+- **Feature Requests**: [GitHub Discussions](https://github.com/pulsetrack-ai/pulsetrack-browser-extension/discussions)
+- **Documentation**: [docs/](docs/)
+- **Official Website**: [www.pulsetrack.fun](https://www.pulsetrack.fun)
 
-## 🚀 Roadmap
+## Roadmap
 
 ### v1.1 (Next Release)
 - [ ] Portfolio analytics dashboard
@@ -246,8 +248,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   <p>Made with ❤️ by the PulseTrack Team</p>
   <p>
-    <a href="https://github.com/pulsetrack/pulsetrack-browser-extension">⭐ Star us on GitHub</a> •
-    <a href="https://twitter.com/pulsetrack">🐦 Follow on Twitter</a> •
-    <a href="https://discord.gg/pulsetrack">💬 Join Discord</a>
+    <a href="https://github.com/pulsetrack-ai/pulsetrack-browser-extension">Star us on GitHub</a> •
+    <a href="https://www.pulsetrack.fun">Official Website</a> •
+    <a href="https://twitter.com/pulsetrack">Follow on Twitter</a>
   </p>
 </div>
