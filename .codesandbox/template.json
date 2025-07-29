@@ -1,0 +1,13 @@
+{
+  "title": "PulseTrack Browser Extension",
+  "description": "Solana wallet tracker browser extension with real-time transaction monitoring",
+  "tags": [
+    "browser-extension",
+    "solana",
+    "wallet-tracker",
+    "three.js",
+    "websocket"
+  ],
+  "iconUrl": "https://pulsetrack.dev/icon.png",
+  "published": false
+}
