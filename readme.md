@@ -7,6 +7,8 @@
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue)](https://developer.chrome.com/docs/extensions/)
 [![Solana](https://img.shields.io/badge/Solana-Blockchain-purple)](https://solana.com/)
 
+![PulseTrack Banner](assets/banner.png)
+
 PulseTrack is a sophisticated browser extension that provides real-time tracking of Solana blockchain wallets with immersive 3D visualizations powered by Three.js. Monitor transactions, analyze trading patterns, and stay updated with live blockchain data directly in your browser.
 
 ## Features
