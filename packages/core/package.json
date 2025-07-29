@@ -1,0 +1,45 @@
+{
+  "name": "@pulsetrack/core",
+  "version": "1.0.0",
+  "description": "Core functionality for PulseTrack browser extension",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.js",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "solana",
+    "wallet",
+    "tracker",
+    "browser-extension",
+    "blockchain"
+  ],
+  "author": "PulseTrack Team",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.91.1",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/three": "^0.160.0",
+    "rollup": "^4.9.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pulsetrack/pulsetrack-browser-extension.git",
+    "directory": "packages/core"
+  }
+}
