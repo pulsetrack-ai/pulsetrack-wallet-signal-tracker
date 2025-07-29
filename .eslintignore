@@ -1,0 +1,11 @@
+node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+docs/assets/
+example/vendor/
+packages/*/dist/
+packages/*/build/
+*.min.js
+*.bundle.js
